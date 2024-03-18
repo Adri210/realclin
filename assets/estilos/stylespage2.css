@@ -7,8 +7,6 @@
     background-color: #fff;
     margin: 50px;
     border-radius: 10px;
-
-
 }
 
 #titulo{
@@ -34,7 +32,6 @@ input{
     border: 2px solid #dee1e2;
     color: rgb(14, 14, 16);
     background: #dee1e2;
-    
     height: 40px;
     width: 100%;
     
@@ -46,20 +43,15 @@ input{
     justify-content: center;
     width: 100%;
     margin: 0;
-    
-    
 }
 
 .lista-form-top{
 list-style: none;
 padding-right: 250px;
 margin-bottom: 40px;
-
-
 }
 
 .lista-form{
-    width: 100%;
     padding-bottom: 20px;
 }
 
