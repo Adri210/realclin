@@ -1,0 +1,87 @@
+
+.cadastro{
+    background-color: #BDB8B8;
+    width: 100%;
+}
+.cadastro-dois{
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 10px;
+
+
+}
+
+#titulo{
+    color:#0d6efd ;
+}
+
+#titulo-dois{
+    padding: 8px;
+}
+
+.img-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+}
+
+input{
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 5px;
+    padding: 10px 15px;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    
+    height: 40px;
+    width: 100%;
+    
+}
+
+.formulario-usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
+    
+}
+
+.lista-form-top{
+list-style: none;
+padding-right: 250px;
+margin-bottom: 40px;
+
+
+}
+
+.lista-form{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#botao-salvar{
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color:#6E39CB;
+    border-color:#6E39CB;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 5rem;
+    width: 10%    
+}
+
+.botao-salvar{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
