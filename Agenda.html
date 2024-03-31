@@ -17,8 +17,8 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white sidebar">
-        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white h-100">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white sidebar h-100">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white vh-100">
           <span class="fs-5">
             <img src="./assets/imagens/logo.png" alt="" class="  m-0 w-100 d-flex justify-content-center">
           </span>
@@ -82,7 +82,54 @@
         </div>
       </div>
 
-      <div class="col cadastro d-flex justify-content-center align-items-center">
+
+      <div class="col cadastro">
+        <div class="bg-white mobile-header">
+          <img src="./assets/imagens/logo.png" class="mobile-logo">
+          <nav>
+            <input type="checkbox" id="menu-hamburguer" />
+
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+
+
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./assets/imagens/Vector.png">
+                  Início
+                </a>
+              </li>
+              <li>
+                <a href="./Usuário.html">
+                  <img src="./assets/imagens/person-fill.png">
+                  Usuário
+                </a>
+              </li>
+              <li>
+                <a href="./Agenda.html">
+                  <img src="./assets/imagens/calendar-event-fill.png">
+                  Agenda
+                </a>
+              </li>
+              <li>
+                <a href="./prontuario.html">
+                  <img src="./assets/imagens/clipboard.png">
+                  Prontuário
+                </a>
+              </li>
+              <li>
+                <a href="./estagiarios.html">
+                  <img src="./assets/imagens/users-solid.svg" class="estagiários-img">
+                  Estagiários
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div class=" cadastro-dois d-flex flex-column p-2">
           <div class="d-flex justify-content-between mb-3">
             <div class="d-flex align-items-center gap-2">

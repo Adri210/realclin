@@ -1,7 +1,14 @@
+body {
+  overflow: hidden;
+}
+
 .cadastro {
   background-color: #BDB8B8;
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cadastro-dois {
@@ -87,9 +94,15 @@
 }
 
 @media (max-width: 500px) {
+  .cadastro {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   .cadastro-dois {
     width: 20rem;
     height: 28rem;
+    margin-top: 12rem;
   }
 
   .custom-input {
@@ -117,5 +130,16 @@
   .color-three,
   .color-four {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cadastro {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .cadastro-dois {
+    margin-top: 12rem;
   }
 }
