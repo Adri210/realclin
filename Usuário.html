@@ -1,136 +1,187 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realclin</title>
-    <link rel="stylesheet" href="./assets/estilos/reset.css">
-    <link rel="stylesheet" href="./assets/estilos/stylespage2.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realclin</title>
+  <link rel="stylesheet" href="./assets/estilos/reset.css">
+  <link rel="stylesheet" href="./assets/estilos/Sidebar.css">
+  <link rel="stylesheet" href="./assets/estilos/Usuario.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
-<div class="container-fluid">
-<div class="row flex-nowrap">
-<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white">
-<div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-   
-    <span class="fs-5   "><img src="./assets/imagens/logo.png" alt="" class="  m-0 w-100 d-flex justify-content-center"></span>
-    
-<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white sidebar h-100">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white vh-100">
+          <span class="fs-5">
+            <img src="./assets/imagens/logo.png" alt="" class="  m-0 w-100 d-flex justify-content-center">
+          </span>
 
-    <li>
-        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 ">
-        <img  src="./assets/imagens/Vector.png" class="fs-4 bi-speedometer2"><span class="ms-1 d-none d-sm-inline text-dark">Inicio</span> </a>
-        
-        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-            <li class="w-100">
-            <a href="./Usuário.html" class="nav-link px-0"> <span class="d-none d-sm-inline text-dark">Usuário</span> </a>
-            </li>                         
-   
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             <li>
-                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline text-dark">Estatistica</span></a>
+              <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 ">
+                <img src="./assets/imagens/Vector.png" class="fs-4 bi-speedometer2">
+                <span class="ms-1 d-none d-sm-inline text-dark">Inicio</span>
+              </a>
+
+              <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                <li class="w-100">
+                  <a href="./Usuário.html" class="nav-link px-0">
+                    <span class="d-none d-sm-inline text-dark">Usuário</span>
+                  </a>
+                </li>
+              </ul>
             </li>
 
-        </ul>
-    </li>
-        
-    <li>
-        <a href="./Agenda.html" class="nav-link px-0 align-middle">
-        <img  src="./assets/imagens/calendar-event-fill.png" class="fs-4 bi-table"> <span class="ms-1 d-none d-sm-inline text-dark">Agenda</span></a>
-    </li>
-        
-    <li>
-        <a href="#submenu2"  class="nav-link px-0 align-middle ">     
-        <img src="./assets/imagens/clipboard.png"> <span class="ms-1 d-none d-sm-inline text-dark">Prontuário</span></a>
-    </li>
-                        
-    <li>
-        <a href="./estagiarios.html"  class="nav-link px-0 align-middle">
-        <img src="./assets/imagens/person-fill.png"> <span class="ms-1 d-none d-sm-inline text-dark">Estágiarios</span> </a>
-    </li>
-                        
-    
-
- </ul>
-
-
-<hr>
-    <div class="dropdown pb-4">
-        <a href="#" class="d-flex align-items-center text-dark  text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-            <span class="d-none d-sm-inline mx-1">João</span>
-        </a>
-                        
-        <ul class="dropdown-menu  text-small shadow">
-            <li><a class="dropdown-item" href="#">Configurações</a></li>
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
             <li>
+              <a href="./Agenda.html " class="nav-link px-0 align-middle">
+                <img src="./assets/imagens/calendar-event-fill.png" class="fs-4 bi-table">
+                <span class="ms-1 d-none d-sm-inline text-dark">Agenda</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#submenu2" class="nav-link px-0 align-middle ">
+                <img src="./assets/imagens/clipboard.png">
+                <span class="ms-1 d-none d-sm-inline text-dark">Prontuário</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="./estagiarios.html" class="nav-link px-0 align-middle">
+                <img src="./assets/imagens/person-fill.png">
+                <span class="ms-1 d-none d-sm-inline text-dark">Estágiarios</span>
+              </a>
+            </li>
+          </ul>
+
+          <hr>
+
+          <div class="dropdown pb-4">
+            <a href="#" class="d-flex align-items-center text-dark  text-decoration-none dropdown-toggle"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+              <span class="d-none d-sm-inline mx-1">João</span>
+            </a>
+
+            <ul class="dropdown-menu  text-small shadow">
+              <li><a class="dropdown-item" href="#">Configurações</a></li>
+              <li><a class="dropdown-item" href="#">Perfil</a></li>
+              <li>
                 <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Sair</a></li>
-        </ul>
-    </div>
+              </li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-</div>
-</div>
-
-    <div class="col cadastro">
+      <div class="col cadastro">
         <h1 id="titulo">Usuário</h1>
-    <div class="cadastro-dois">
-        <h3 id="titulo-dois">Editar Perfil de funcionário</h3>
 
-        <div class="img-perfil py-3">
-            <img src="./assets/imagens/fotoperfil.png" alt="">
-            <p>Foto de Perfil</p>
+        <div class="bg-white mobile-header">
+          <img src="./assets/imagens/logo.png" class="mobile-logo">
+          <nav>
+            <input type="checkbox" id="menu-hamburguer" />
+
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+
+
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./assets/imagens/Vector.png">
+                  Início
+                </a>
+              </li>
+              <li>
+                <a href="./Usuário.html">
+                  <img src="./assets/imagens/person-fill.png">
+                  Usuário
+                </a>
+              </li>
+              <li>
+                <a href="./Agenda.html">
+                  <img src="./assets/imagens/calendar-event-fill.png">
+                  Agenda
+                </a>
+              </li>
+              <li>
+                <a href="./prontuario.html">
+                  <img src="./assets/imagens/clipboard.png">
+                  Prontuário
+                </a>
+              </li>
+              <li>
+                <a href="./estagiarios.html">
+                  <img src="./assets/imagens/users-solid.svg" class="estagiários-img">
+                  Estagiários
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
 
-     <div class="formulario-usuario py-3">
-        <ul class="lista-form-top">
-            <li class="lista-form">
-                <span>Nome</span>
-                <input type="text">
+        <div class="cadastro-dois">
+          <div>
+            <h3 id="titulo-dois">Editar Perfil de funcionário</h3>
+            <div class="img-perfil">
+              <img src="./assets/imagens/fotoperfil.png" alt="Foto de Perfil">
+              <p class="m-0">Foto de Perfil</p>
+            </div>
+          </div>
+
+
+          <div class="row">
+
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Nome</span>
+              <input type="text">
             </li>
 
-            <li class="lista-form">
-                <span>Email</span>
-                <input type="email">
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Sobrenome</span>
+              <input type="text">
             </li>
 
-            <li class="lista-form">
-                <span>Celular</span>
-                <input type="text">
-            </li>
-        </ul>
-
-        <ul class="lista-form-top">
-            <li class="lista-form">
-                <span>Sobrenome</span>
-                <input type="text">
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Email</span>
+              <input type="email">
             </li>
 
-            <li class="lista-form">
-                <span>Data de nascimento</span>
-                <input type="date">
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Data de nascimento</span>
+              <input type="date">
             </li>
 
-            <li class="lista-form">
-                <span>Função</span>
-                <input type="text">
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Celular</span>
+              <input type="text">
             </li>
-        </ul>
+
+            <li class="lista-form col-md-6 col-sm-12">
+              <span>Função</span>
+              <input type="text">
+            </li>
+          </div>
+
+          <button id="botao-salvar">Salvar</button>
         </div>
-
-        <div class="botao-salvar">
-            <button id="botao-salvar">Salvar</button>
-        </div>
+      </div>
     </div>
-        
-    </div>
-
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
