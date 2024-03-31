@@ -47,7 +47,7 @@ input {
   width: 70%;
 }
 
-.botao_cadastrar {
+.botao-entrar {
   cursor: pointer;
   outline: 0;
   color: #fff;
@@ -59,6 +59,11 @@ input {
   font-size: 16px;
   border-radius: 5rem;
   width: 70%
+}
+
+.botao-entrar:hover {
+  color: #fff;
+  background-color: #1c67d6;
 }
 
 
@@ -92,7 +97,7 @@ a:link {
   }
 
   input,
-  .botao_cadastrar {
+  .botao-entrar {
     width: 85%;
   }
 
