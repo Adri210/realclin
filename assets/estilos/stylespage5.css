@@ -1,30 +1,35 @@
-.cadastro{
-    background-color: #BDB8B8;
+.cadastro {
+    background-color: #DDD7D7;
     width: 100%;
 }
 
-.search-icon{
+.search-icon {
     top: 20%;
-    right: 8px; 
+    right: 8px;
 }
 
 
-
-.custom-users{
+.custom-users {
     gap: 15%;
 }
 
-.custom-btn{
+.custom-btn {
     display: flex;
     justify-content: end;
-   
+
 }
 
-#custom-btn{
-    background-color:#0d6efd;
+#custom-btn {
+    background-color: #0d6efd;
     color: #fff;
     padding: 10px;
-    width: 10%; 
-    
+    width: 10%;
+}
 
+.estagio {
+    border-radius: 10px;
+}
+
+.cor {
+    background-color: #0d6efd;
 }

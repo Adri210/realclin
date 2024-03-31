@@ -1,6 +1,17 @@
+
+.container-fluid {
+    background-color: #EFEEEE;
+}
+
+
 .cadastro{
-    background-color: #BDB8B8;
+    background-color: #757575;
     width: 100%;
+}
+
+.lateral{
+    background-color: #FFFFFF;
+    
 }
 
 .cadastro-dois{
@@ -10,13 +21,13 @@
 }
 
 .custom-btn{
-    background-color:#0d6efd;
+    background-color:#008FD1;
     color: #fff;
 }
 
 .search-icon{
-    top: 20%;
-    right: 15px; 
+    top: 25%;
+    right: 8px; 
 }
 
 .flag{
@@ -78,3 +89,32 @@
     color: #F41E1E
 }
 
+.pacientes{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.paciente{
+    background-color: #DBEEF6;
+    border-radius: 10px;
+
+}
+
+.informacoes{
+    padding: 10px;
+}
+
+.icon-blue {
+    fill: #008FD1;
+}
+
+.lembretes{
+    padding: 10px;
+}
+
+
+h1 {
+    font-size: 2em; 
+  }

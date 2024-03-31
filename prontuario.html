@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realclin</title>
+  <link rel="stylesheet" href="./assets/estilos/reset.css">
+  <link rel="stylesheet" href="./assets/estilos/stylespage5.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+
+          <span class="fs-5   "><img src="./assets/imagens/logo.png" alt=""
+              class="  m-0 w-100 d-flex justify-content-center"></span>
+
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+
+            <li>
+              <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 ">
+                <img src="./assets/imagens/Vector.png" class="fs-4 bi-speedometer2"><span
+                  class="ms-1 d-none d-sm-inline text-dark">Inicio</span> </a>
+
+              <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                <li class="w-100">
+                  <a href="./Usuário.html" class="nav-link px-0"> <span
+                      class="d-none d-sm-inline text-dark">Usuário</span> </a>
+                </li>
+
+                <li>
+                  <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline text-dark">Estatistica</span></a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <a href="./Agenda.html" class="nav-link px-0 align-middle">
+                <img src="./assets/imagens/calendar-event-fill.png" class="fs-4 bi-table"> <span
+                  class="ms-1 d-none d-sm-inline text-dark">Agenda</span></a>
+            </li>
+
+            <li>
+              <a href="#submenu2" class="nav-link px-0 align-middle ">
+                <img src="./assets/imagens/clipboard.png"> <span
+                  class="ms-1 d-none d-sm-inline text-dark">Prontuário</span></a>
+            </li>
+
+            <li>
+              <a href="./estagiarios.html" class="nav-link px-0 align-middle">
+                <img src="./assets/imagens/person-fill.png"> <span
+                  class="ms-1 d-none d-sm-inline text-dark">Estágiarios</span> </a>
+            </li>
+
+
+
+          </ul>
+
+
+          <hr>
+          <div class="dropdown pb-4">
+            <a href="#" class="d-flex align-items-center text-dark  text-decoration-none dropdown-toggle"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+              <span class="d-none d-sm-inline mx-1">João</span>
+            </a>
+
+            <ul class="dropdown-menu  text-small shadow">
+              <li><a class="dropdown-item" href="#">Configurações</a></li>
+              <li><a class="dropdown-item" href="#">Perfil</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col cadastro">
+        <div class="d-flex align-items-center ">
+          <h3 class="p-3">Prontuários</h3>
+          <div class="position-relative">
+            <input type="text" class="custom-input  border border-1 rounded-5 ps-2 pe-4 ">
+            <i class="fas fa-search position-absolute  search-icon"></i>
+          </div>
+
+        </div>
+
+        <table class="table table-hover ">
+          <thead class="">
+            <tr class="cor">
+              <th scope="col ">Nome</th>
+              <th scope="col ">Nº do Prontuário</th>
+              <th scope="col ">Status</th>
+              <th scope="col ">Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Maria</th>
+              <td>2545692</td>
+              <td>Ativo</td>
+              <td>12 Jan. 2024</td>
+            </tr>
+            <tr>
+              <th scope="row">Ana</th>
+              <td>1362589</td>
+              <td>Cancelado</td>
+              <td>14 Out. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Lucas</th>
+              <td>3265982</td>
+              <td>Ativo</td>
+              <td>16 Fev. 2023</td>
+            </tr>
+            <tr>
+              <th scope="row">Pedro</th>
+              <td>3265923</td>
+              <td>Ativo</td>
+              <td>10 Ago. 2023</td>
+            </tr>
+            <tr>
+              <th scope="row">Izadora</th>
+              <td>2365692</td>
+              <td>Ativo</td>
+              <td>12 Nov. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Thiago</th>
+              <td>0321684</td>
+              <td>Cancelado</td>
+              <td>20 Dez. 2023</td>
+            </tr>
+            <tr>
+              <th scope="row">Luana</th>
+              <td>2365001</td>
+              <td>Ativo</td>
+              <td>05 jan. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Rafaela</th>
+              <td>2365944</td>
+              <td>Ativo</td>
+              <td>20 Set. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Bruna</th>
+              <td>3265904</td>
+              <td>Ativo</td>
+              <td>20 Nov. 2023</td>
+            </tr>
+            <tr>
+              <th scope="row">Gustavo</th>
+              <td>1634766</td>
+              <td>Cancelado</td>
+              <td>20 Dez. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Larissa</th>
+              <td>3526942</td>
+              <td>Ativa</td>
+              <td>20 Dez. 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Juliano</th>
+              <td>5832731</td>
+              <td>Cancelado</td>
+              <td>20 Dez. 2022</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <div class="custom-btn">
+          <button class=" rounded-2 " id="custom-btn"> Adicionar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
