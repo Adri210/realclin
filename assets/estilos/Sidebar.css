@@ -95,6 +95,7 @@
   bottom: 0;
 }
 
+
 @media(max-width: 768px) {
   .mobile-header .menu {
     display: block;
@@ -145,6 +146,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
 }
 
 @media(max-width: 500px) {
